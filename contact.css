@@ -1,0 +1,85 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #ffefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffcc00;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 15px;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+}
+
+/* Contact Section */
+section {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 70%;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 2rem;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff6600;
+}
